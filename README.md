@@ -79,6 +79,7 @@ field_localization_demonstration/
    ```
 
    ![Database Setup](src/main/resources/images/database.png)
+
    *Figure: Database setup in MySQL Workbench*
 
 2. **Create Tables**
@@ -112,14 +113,14 @@ field_localization_demonstration/
 
 - Run the application and select a language from the "Select Language" dropdown.
 
-  ![Language Selection - English](src/main/resources/images/english.png)
   *Figure: Language selection screen in English*
+  ![Language Selection - English](src/main/resources/images/english.png)
 
-  ![Language Selection - Farsi](src/main/resources/images/farsi.png)
   *Figure: Language selection screen in Farsi*
+  ![Language Selection - Farsi](src/main/resources/images/farsi.png)
 
-  ![Language Selection - Japanese](src/main/resources/images/japanese.png)
   *Figure: Language selection screen in Japanese*
+  ![Language Selection - Japanese](src/main/resources/images/japanese.png)
 
 - Fill in the employee details (first name, last name, email).
 - Click **Save** to add the employee details to the database table for the selected language.
@@ -129,7 +130,5 @@ field_localization_demonstration/
 ## Additional Notes
 
 - **Configuration File**: The `config.properties` file contains sensitive information (database credentials). Ensure this file is not exposed publicly.
-- **Localization Files**: Resource bundles for localization are located in the `src/main/resources/messages/` directory.
-- **UI Customization**: The UI background color and button positioning can be customized in `language_selection_view.fxml` and `LanguageSelectionApp.java`.
 - **Error Handling**: Alerts are shown for errors such as empty fields or invalid email format. These error messages are also localized.
 
