@@ -71,18 +71,19 @@ field_localization_demonstration/
 
 ### Create the Database
 
-1. **Create the Database**
+1. **Connect to MySQL**
+
+   Connect to your MySQL server using a client like MySQL Workbench.
+
+
+2. **Create the Database**
 
    ```sql
    CREATE DATABASE field_localization_demonstration;
    USE field_localization_demonstration;
    ```
 
-   *Figure: Database setup in MySQL Workbench*
-   ![Database Setup](src/main/resources/images/database.png)
-
-
-2. **Create Tables**
+3. **Create Tables**
 
    Create tables for each supported language to store localized employee data:
 
@@ -108,6 +109,9 @@ field_localization_demonstration/
        email VARCHAR(100)
    );
    ```
+   
+   *Figure: Database setup in MySQL Workbench*
+   ![Database Setup](src/main/resources/images/database.png)
 
 ## Usage
 
