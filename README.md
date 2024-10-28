@@ -78,9 +78,9 @@ field_localization_demonstration/
    USE field_localization_demonstration;
    ```
 
+   *Figure: Database setup in MySQL Workbench*
    ![Database Setup](src/main/resources/images/database.png)
 
-   *Figure: Database setup in MySQL Workbench*
 
 2. **Create Tables**
 
