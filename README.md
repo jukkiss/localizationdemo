@@ -78,6 +78,9 @@ field_localization_demonstration/
    USE field_localization_demonstration;
    ```
 
+   ![Database Setup](src/main/resources/images/database.png)
+   *Figure: Database setup in MySQL Workbench*
+
 2. **Create Tables**
 
    Create tables for each supported language to store localized employee data:
@@ -108,6 +111,16 @@ field_localization_demonstration/
 ## Usage
 
 - Run the application and select a language from the "Select Language" dropdown.
+
+  ![Language Selection - English](src/main/resources/images/english.png)
+  *Figure: Language selection screen in English*
+
+  ![Language Selection - Farsi](src/main/resources/images/farsi.png)
+  *Figure: Language selection screen in Farsi*
+
+  ![Language Selection - Japanese](src/main/resources/images/japanese.png)
+  *Figure: Language selection screen in Japanese*
+
 - Fill in the employee details (first name, last name, email).
 - Click **Save** to add the employee details to the database table for the selected language.
 - Click **Reset** to clear the form.
