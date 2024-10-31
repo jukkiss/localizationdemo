@@ -11,7 +11,7 @@ public class LanguageSelectionApp extends Application {
     @Override
     public void start(Stage stage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/org/example/field_localization_demonstration/language_selection_view.fxml"));
-        Scene scene = new Scene(fxmlLoader.load(), 400, 300);
+        Scene scene = new Scene(fxmlLoader.load(), 300, 200);
         stage.setTitle("Employee Management - Language Selection");
         stage.setScene(scene);
         stage.show();
